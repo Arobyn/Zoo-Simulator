@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZooSimulator/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" filepath="$PROJECT_DIR$/ZooSimulator/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zoo-Simulator.iml" filepath="$PROJECT_DIR$/Zoo-Simulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZooSimulator/ZooSimulator.iml" filepath="$PROJECT_DIR$/ZooSimulator/ZooSimulator.iml" />
+    </modules>
+  </component>
+</project>

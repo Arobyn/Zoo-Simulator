@@ -2,11 +2,9 @@ package zoo.domain;
 
 public class Iguana extends Reptile implements Swimmable {
 
-	public Iguana(int age, String scaleColor)
+	public Iguana(String name,int age, String scaleColor)
 	{
-		this.name="Iguana";
-		this.age=age;
-		this.scaleColor=scaleColor;
+		super(name, age,scaleColor);
 	}
 	
 	@Override

@@ -4,9 +4,10 @@ import zoo.domain.*;
 public class Simulator {
 
 	public static void main(String[] args) {
-		Hummingbird b=new Hummingbird(1,1);
-		System.out.println(b.info());
-		b.fly();
+		Iguana Bernard=new Iguana("Bernard",10,"Green");
+        Iguana Bernard2=new Iguana("Bernard",30,"Black");
+		System.out.println(Bernard.info());
+		Bernard.swim();
 	}
 
 }

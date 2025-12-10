@@ -1,6 +1,6 @@
 package zoo.domain;
 
-public class Hummingbird extends Bird implements Flyable {
+public class Hummingbird extends Bird implements Flyable,Trainable {
 
 	public Hummingbird(int age, double wingspan)
 	{
@@ -14,4 +14,10 @@ public class Hummingbird extends Bird implements Flyable {
 		System.out.println(this.name+" flies into the sky");
 		
 	}
+
+    @Override
+    public void performTrick()
+    {
+        System.out.println(this.name+"does a barrel");
+    }
 }
