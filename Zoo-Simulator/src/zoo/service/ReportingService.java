@@ -13,4 +13,17 @@ public class ReportingService {
         }
         System.out.println("---------------------------------");
     }
+	
+	 public void generateCSVReportByAge(List<? extends Exportable> items) {
+        System.out.println("\n--- GENEROWANIE RAPORTU (CSV) ---");
+        System.out.println("name;age;type");
+        items.stream()
+             .filter(item -> item instanceof Animal)
+             .map(item -> (Animal) item)
+             .sorted(Comparator.comparingInt(Animal::getAge))
+             .forEach(animal -> System.out.println(animal.toCSV()));
+
+        System.out.println("---------------------------------");
+    }
+}
 }
