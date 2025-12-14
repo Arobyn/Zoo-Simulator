@@ -5,7 +5,7 @@
 Projekt może być traktowany jako mini‑silnik symulacji z raportowaniem aktywności zwierząt.
 
 ## Struktura pakietów
-
+```
 zoo
 ├── app
 │   └── Simulator.java
@@ -27,7 +27,7 @@ zoo
 └── service
     ├── SimulationService.java
     └── ReportingService.java
-
+```
 ## Główne elementy projektu
 
 ### 1. Abstrakcyjna klasa bazowa
@@ -123,7 +123,7 @@ Raport generowany jest na podstawie interfejsu `Exportable`.
 
 
 ## Diagram klas (uproszczony)
-
+```
             Animal (abstract)
                |
    ----------------------------------------------
@@ -131,7 +131,7 @@ Raport generowany jest na podstawie interfejsu `Exportable`.
  Mammal        	 	 Bird          			 Reptile
    |             	 |               			|
  Lion,Elephant 	Eagle, Penguin.Hummingbird    Iguana
-
+```
 
 Interfejsy:
 
